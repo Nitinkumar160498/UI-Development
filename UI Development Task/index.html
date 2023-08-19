@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bambino Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row align-items-center no-gutters header-items">
+            <div class="col-lg-3 col-sm-12 col-8 social-icons">
+                <a href="#" class="social-icon"><img src="images/Layer 55.svg" alt="Icon 1" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 56.svg" alt="Icon 2" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 57.svg" alt="Icon 3" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 58.svg" alt="Icon 4" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 59.svg" alt="Icon 5" /></a>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-6 col-4 page-logo">
+                <a href="#">
+                    <img src="images/Layer 81.svg" alt="Logo" class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 enquiry-search">
+                <div class="d-flex justify-content-between num-enquiry">
+                    <a href="#" class="icon-text-container">
+                        <img src="images/Layer 53.svg" alt="Icon 1" class="img-fluid" />
+                        <span>1800 123 456</span>
+                    </a>
+                    <a href="#" class="icon-text-container">
+                        <img src="images/Layer 54.svg" alt="Icon 2" class="img-fluid" />
+                        <span>Enquiry</span>
+                    </a>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" />
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation" onclick="toggleMobileMenu()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="row no-gutters bambino-menu-images">
+            <div class="col-12 single-col-menu">
+                <img src="images/Layer 60.png" class="img-fluid w-100 equal-height-img" alt="Image" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-7 position-relative two-col-menu space-top space-right">
+                <img src="images/Layer 61.png" class="img-fluid w-100 equal-height-img" alt="Image 1" />
+                <div class="image-caption instant-pasta">
+                    <h2>BamBiNo instant pasta</h2>
+                    <h1>Want Something Real ?</h1>
+                    <p>Bambino Instant Nutritious pasta with tasty masala.
+                        <span class="more-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                            veritatis!</span>
+                    </p>
+
+                    <button href="#" class="btn btn-primary read-more-button">Read More</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5 position-relative two-col-menu space-top space-left">
+                <img src="images/Layer 63.png" class="img-fluid w-100 equal-height-img" alt="Image 2" />
+                <div class="image-caption bambino">
+                    <h2>BamBiNo</h2>
+                    <h1>Bambino Macaroni Pep Elbows</h1>
+                    <button href="#" class="btn btn-primary">Know More</button>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 three-col-menu">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-sm-6 position-relative healthy-pasta space-top space-right">
+                        <img src="images/Layer 64.png" class="img-fluid w-100 three-col-img" alt="Image 1" />
+                        <div class="text-overlay">
+                            <h1>Healthy Pasta !!!</h1>
+                            <button class="btn btn-primary">Know More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 position-relative pasta-anytime space-top space-left space-right">
+                        <img src="images/Layer 79.png" class="img-fluid w-100 three-col-img" alt="Image 2" />
+                        <div class="text-overlay">
+                            <h2>Best for any time...</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 three-col-menu">
+                <div class="row no-gutters">
+                    <div class="col-12 pasta-plate space-top space-left">
+                        <img src="images/Layer 80.png" class="img-fluid w-100 three-col-img" alt="Image 3" />
+                        <div class="text-overlay">
+                            <h2>How we bring pasta to your plate?</h2>
+                            <button class="btn btn-primary">Know More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters products">
+                <h1 class="text-center custom-heading col-12">Our Products</h1>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Layer 67.svg" class="card-img img-fluid" alt="Image 1" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ONLY VEGETARIAN</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed
+                                diam nonum nibhie euismod. Facilisis at vero...
+                            </p>
+                            <a href="#" class="card-link">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Layer 68.svg" class="card-img img-fluid" alt="Image 2" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title">GRAB & GO!</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed
+                                diam nonum nibhie euismod. Facilisis at vero...
+                            </p>
+                            <a href="#" class="card-link read-more-button">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Layer 69.svg" class="card-img img-fluid" alt="Image 3" />
+                        <div class="card-body text-center">
+                            <h4 class="card-title">FRESH SCHOOL TACOS</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed
+                                diam nonum nibhie euismod. Facilisis at vero...
+                            </p>
+                            <a href="#" class="card-link">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters pasta-stories">
+            <h1 class="text-center custom-heading col-12">Pasta Stories</h1>
+            <img class="img-fluid w-100" src="images/Layer 70.png" alt="Image" />
+        </div>
+
+        <div class="row no-gutters pasta-videos">
+            <h1 class="text-center custom-heading col-12">Pasta Videos</h1>
+            <div class="col-lg-6 col-sm-12">
+                <div class="video-container">
+                    <img src="images/Layer 73.png" class="img-fluid w-100 vid-img" alt="First Image" />
+                    <div class="play-icon">
+                        <img src="images/Layer 74.svg" alt="YouTube Icon" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="video-container">
+                    <img src="images/Layer 76.png" class="img-fluid w-100 vid-img" alt="Second Image" />
+                    <div class="play-icon">
+                        <img src="images/Layer 74.svg" alt="YouTube Icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row no-gutters py-4 newsletter">
+            <div class="col-md-5 col-sm-12 pr-3">
+                <div class="text-label">Subscribe for Newsletter</div>
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter email" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary custom-button" type="button">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters footer-navigation">
+            <div class="col-md-12">
+                <ul class="list-inline text-center mb-0">
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row no-gutters mt-3 footer-social-media">
+            <div class="col-md-5 col-sm-5 col-12 follow-us">
+                <p>Follow us:</p>
+            </div>
+            <div class="col-md-7 col-sm-7 col-12 social-icons">
+                <a href="#" class="social-icon"><img src="images/Layer 55.svg" alt="Icon 1" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 56.svg" alt="Icon 2" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 57.svg" alt="Icon 3" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 58.svg" alt="Icon 4" /></a>
+                <a href="#" class="social-icon"><img src="images/Layer 59.svg" alt="Icon 5" /></a>
+            </div>
+        </div>
+        <hr class="hz-line" />
+        <div class="row no-gutters pb-2 copyright">
+            <div class="col-md-5 col-sm-12 d-flex justify-content-center justify-content-md-start">
+                <div class="text-center text-md-left custom-text">
+                    © Copyright @ 2020 Bambino Pasta Pasta Industries.
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12 d-flex justify-content-center justify-content-md-end">
+                <img src="images/boottom footer logo.PNG" class="img-fluid" alt="Your Image" />
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
